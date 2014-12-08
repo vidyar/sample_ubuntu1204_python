@@ -2,6 +2,7 @@ language: python
 
 build_image: shippableimages/ubuntu1204_python
 
+
 python:
   - 2.7
   - 3.3
@@ -12,8 +13,6 @@ before_install:
   - mkdir -p $HOME/sample_ve/
   - virtualenv -p $SHIPPABLE_PYTHON $HOME/sample_ve/
   - source $HOME/sample_ve/bin/activate
-  
-  
   
 install:
   - pip install -r requirements.txt
