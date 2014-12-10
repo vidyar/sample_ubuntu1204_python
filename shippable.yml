@@ -1,6 +1,6 @@
 language: python
 
-build_image: shippableimages/ubuntu1204_python
+build_image: shippableimages/ubuntu1204_python:0.0.1
 
 python:
  # - 2.7
@@ -28,4 +28,4 @@ script:
  
   
 commit_container: vidyar/sample_ubuntu1204_python
-cache: true
+#cache: true
