@@ -4,7 +4,7 @@ language: python
 build_image: vauxoo/odoo-80-image-shippable-auto
 python:
   - 2.7
-  - 3.3
+  - 3.2
   - 3.4
   
 before_install:
