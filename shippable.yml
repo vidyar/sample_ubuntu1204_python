@@ -1,9 +1,12 @@
 language: python
 
+
 build_image: shippableimages/ubuntu1204_python:0.0.1
+
 
 #build_image: vauxoo/odoo-80-image-shippable-auto
 #testreset_minion_beta
+
 
 python:
   - 2.7
