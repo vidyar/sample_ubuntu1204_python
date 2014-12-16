@@ -34,5 +34,5 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
  
   
-#commit_container: vidyar/sample_ubuntu1204_python
+commit_container: vidyar/sample_ubuntu1204_python
 cache: true
