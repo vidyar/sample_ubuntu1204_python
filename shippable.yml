@@ -4,6 +4,7 @@ language: python
 build_image: shippableimages/ubuntu1204_python:0.0.1
 
 
+
 #build_image: vauxoo/odoo-80-image-shippable-auto
 #testreset_minion_beta
 
@@ -35,4 +36,5 @@ script:
  
   
 commit_container: vidyar/sample_ubuntu1204_python
-cache: true
+
+#cache: true
