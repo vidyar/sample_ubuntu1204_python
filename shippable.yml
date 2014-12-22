@@ -36,12 +36,12 @@ script:
  
   
 commit_container: vidyar/sample_ubuntu1204_python
-images:
-  image:
-    build:
-      type: docker
-      name: shippableimages/ubuntu1204_python
-      tag: 0.0.2
-      code_path: /app.py
+#images:
+ # image:
+  #  build:
+   #   type: docker
+    #  name: shippableimages/ubuntu1204_python
+     # tag: 0.0.2
+      #code_path: /app.py
 
 #cache: true
