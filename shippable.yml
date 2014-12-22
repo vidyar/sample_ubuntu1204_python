@@ -42,6 +42,6 @@ images:
      type: docker
      name: shippableimages/ubuntu1204_python
      tag: 0.0.2
-     code_path: /src
+     code_path: /test
 
 cache: true
