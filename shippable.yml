@@ -39,5 +39,5 @@ images:
      type: docker
      name: shippableimages/ubuntu1204_python
      tag: 0.0.1
-     code_path: /home/vidyar/src
      cache: true
+     code_path: /root/vidyar/src
