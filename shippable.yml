@@ -36,7 +36,7 @@ images:
   image:
     build:
      type: docker
-     name: shippableimages/ubuntu1204_python
-     tag: 0.0.1
-     cache: true
-     code_path: /root/vidyar/src
+     name: vauxoo/odoo-80-image-shippable-auto
+     tag: latest
+    # cache: true
+     code_path: /home/vidyar/src
