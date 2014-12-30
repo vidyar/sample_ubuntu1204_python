@@ -1,6 +1,6 @@
 language: python
 
-#build_image: shippableimages/ubuntu1204_python:0.0.2
+build_image: shippableimages/ubuntu1204_python
 
 #build_image: vauxoo/odoo-80-image-shippable-auto
 #testreset_minion_beta
@@ -36,7 +36,7 @@ images:
   image:
     build:
      type: docker
-     name: vauxoo/odoo-80-image-shippable-auto
+     name: shippableimages/ubuntu1204_python
      tag: latest
     # cache: true
      code_path: /home/vidyar/src
