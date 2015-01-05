@@ -44,7 +44,7 @@ images:
   image:
     build:
      type: docker
-     name: shippableimages/ubuntu1204_python
+     name: vidyar/ubuntu_python_1204
      tag: latest
     # cache: true
      code_path: /home/vidyar/src
