@@ -1,6 +1,6 @@
 language: python
 
-build_image: shippableimages/ubuntu1204_python
+#build_image: shippableimages/ubuntu1204_python
 
 #build_image: vauxoo/odoo-80-image-shippable-auto
 #testreset_minion_beta
@@ -31,8 +31,6 @@ before_script:
   - cd $SHIPPABLE_REPO_DIR && mkdir -p shippable/codecoverage
 
 script:
-  - env
-  - ls
   - echo $PWD
   - cd $SHIPPABLE_REPO_DIR && nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - cd $SHIPPABLE_REPO_DIR && which python && coverage run --branch test.py
@@ -44,7 +42,7 @@ images:
   image:
     build:
      type: docker
-     name: vidyar/ubuntu_python_1204
-     tag: latest
+     name: vidyar/python_1204_img
+     tag: 2.1
     # cache: true
      code_path: /home/vidyar/src
