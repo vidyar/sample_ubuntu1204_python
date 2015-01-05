@@ -6,10 +6,6 @@ language: python
 #testreset_minion_beta
 
 
-python:
- # - 2.7
-  #- 3.3
-  - 3.4
 
 python:
   - 2.7
@@ -37,7 +33,8 @@ script:
   - cd $SHIPPABLE_REPO_DIR && which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 
-#commit_container: vidyar/sample_ubuntu1204_python
+commit_container: vidyar/python_1204_img
+
 images:
   image:
     build:
