@@ -40,6 +40,6 @@ images:
     build:
      type: docker
      name: vidyar/python_1204_img
-     tag: 2.1
+     tag: latest
     # cache: true
      code_path: /home/vidyar/src
