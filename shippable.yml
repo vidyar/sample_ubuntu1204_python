@@ -33,13 +33,13 @@ script:
   - cd $SHIPPABLE_REPO_DIR && which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 
-commit_container: vidyar/python_1204_img
+commit_container: vidyar/python_1204_sample
 
 images:
   image:
     build:
      type: docker
-     name: vidyar/python_1204_img
+     name: shippableimages/ubuntu1204_python
      tag: latest
     # cache: true
      code_path: /home/vidyar/src
