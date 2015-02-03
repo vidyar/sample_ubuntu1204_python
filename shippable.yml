@@ -38,11 +38,11 @@ script:
 commit_container: vidyar/python_1204_sample
 
 
-images:
-  image:
-    build:
-     type: docker
-     name: shippableimages/ubuntu1204_python
-     tag: latest
-     code_path: /home/vidyar/src
+#images:
+ # image:
+  #  build:
+   #  type: docker
+    # name: shippableimages/ubuntu1204_python
+    # tag: latest
+    #    code_path: /home/vidyar/src
 
