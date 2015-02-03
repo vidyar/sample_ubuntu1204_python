@@ -35,7 +35,8 @@ script:
   - cd $SHIPPABLE_REPO_DIR && which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 
-#commit_container: vidyar/python_1204_sample
+commit_container: vidyar/python_1204_sample
+
 images:
   image:
     build:
