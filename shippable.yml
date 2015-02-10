@@ -36,7 +36,7 @@ script:
 
 
 commit_container: vidyar/python_1204_sample
-
+archive: true
 
 #images:
  # image:
