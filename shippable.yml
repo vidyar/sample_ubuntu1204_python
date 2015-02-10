@@ -1,8 +1,8 @@
 language: python
 
-#build_image: shippableimages/ubuntu1204_python
+build_image: shippableimages/ubuntu1404_python
 
-build_image: vauxoo/odoo-80-image-shippable-auto
+#build_image: vauxoo/odoo-80-image-shippable-auto
 #testreset_minion_beta
 env:
   - secure: ZyHkOByzMmq1C6aI4/fBTB0vUXxQgP7s+n/n+moiNqr1X9EPPWocWMyK69OmWn5e/buOpdW0g4140844k8LbTavtFPgk5VoTi8I7BpXKbUrI/vQ4boIU/Gw3AA4nkSQ3Igwqtc7RdvHASsTvIsdedXTDde6ODXE8IMz3gzg36zU+lkB08/nqfcaZpu/x9G0hCx8gUiC77UEh9vq8yBcnglGECHTlADbhwW9ywlFelrlNNLg7gX6mZBQ4bGVNclud+WsDeg0F9iilkAVHJ3n/eXcl6x9uUKRFf/3DvrklB+JiQ72sOJxpA+14zk2w1hZq5FDHG+iugPinC3Hn/s95PA==
