@@ -1,6 +1,6 @@
 language: python
 
-build_image: shippableimages/ubuntu1404_python
+build_image: shippableimages/ubuntu1404_python:0.0.3
 #build_image: vauxoo/odoo-80-image-shippable-auto
 
 python:
@@ -23,7 +23,8 @@ before_script:
   - mkdir -p shippable/codecoverage
 
 script:
+  - git --version
   - nosetests test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
-commit_container: vidyar/ubuntu_python
+#commit_container: vidyar/ubuntu_python
