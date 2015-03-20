@@ -25,6 +25,7 @@ install:
 before_script:
   - cd $SHIPPABLE_REPO_DIR && mkdir -p shippable/testresults
   - cd $SHIPPABLE_REPO_DIR && mkdir -p shippable/codecoverage
+  - echo $test
 
 script:
   - echo $PWD
