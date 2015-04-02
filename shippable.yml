@@ -35,7 +35,7 @@ script:
   - cd $SHIPPABLE_REPO_DIR && which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 after_script:
-  - cp -r src ./shippable/buildoutput
+  - cp -r /home/vidya/src ./shippable/buildoutput
 
 #commit_container: vidyar/python_1204_sample
 archive: true
