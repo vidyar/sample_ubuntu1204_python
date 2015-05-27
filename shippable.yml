@@ -8,8 +8,8 @@ env:
   - secure: uexHThl+T5ddg/PgypS9E1Y1GeYL9hhSRnIAFEuD4fJbB7p31YIF4X6RZ6MKjg26WsNlF4PEmZPMSmYxc7lRT7WOStngxNMTmd2WlWwHxRpq5SFXn+mPQ/pMk95Wq5McAHL1b13Msmb406mO5nnmp0CkE62Lrn5dxSZkaKurP8zdIh/OFb8iszEHNKvcyKxeHGZdcMwP3wb3KwyHdh57fNFjdMUYbhH6EWhHerGjwp7sT7h5AEh1wuKI5kvo4N1cihCV1kftjFHWSgszEth5IwG2Woe7ixLn2o1XRdZBJbYR9M0Kv4k0ZDW7zKUZ2rQY4fi7uUj0z29h9kx7sd1JNQ==
 
 python:
-  - 2.7
-  - 3.3
+#  - 2.7
+#  - 3.3
   - 3.4
   
 before_install:
