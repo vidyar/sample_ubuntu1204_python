@@ -40,12 +40,3 @@ script:
 
 #commit_container: vidyar/python_1204_sample
 archive: true
-
-images:
-  image:
-    build:
-    type: docker
-    name: vidyar/ubuntu1204_python
-    tag: latest
-    code_path: /home/vidyar/src
-
